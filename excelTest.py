@@ -1,7 +1,12 @@
+#pip install pandas 
+#pip install scikit-learn
+#pip install openpyxl
+
 import pandas as pd
 from sklearn.cluster import KMeans
 import openpyxl
 
+#エクセルデータ指定
 excel_data = "./SampleData.xlsx"
 
 df = pd.read_excel(excel_data,index_col=0) #excelデータ入力
